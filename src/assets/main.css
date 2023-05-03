@@ -1,0 +1,114 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background: #F9FAF9;
+
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+.title,
+.title__2{
+  color: black;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 66px;
+  position: absolute;
+  right: 560px;
+}
+.title__2{
+  top: 1215px;
+  left: 184px;
+}
+.text{
+  position: absolute;
+  top: 1400px;
+  left: 184px;
+  width: 439px;
+}
+.textcarre{
+  position: absolute;
+  width: 761px;
+  height: 260px;
+  right: 406px;
+  width: 614px;
+  top: 144px;
+}
+.btn,
+.btn__2{
+  width: 142px;
+  height: 58px;
+  background: #F9FAF9;
+  border-radius: 8px;
+  font-size: 18px;
+  position: absolute;
+  right: 700px;
+  top: 270px;
+  border: transparent;
+}
+.btn__2{
+  background: #D7AFDD;
+  top: 1641px;
+  left: 184px;
+  width: 202px;
+}
+.deco{
+  position: absolute;
+  width: 439.53px;
+  height: 556.71px;
+  left: 1098.08px;
+  top: -102px;
+}
+.deco2{
+  position: absolute;
+  width: 394.2px;
+  height: 570.14px;
+  right: 1150px;
+  top: -102px;
+}
+.decoback{
+  position: absolute;
+  width: 766.52px;
+  height: 660.71px;
+  left: 340px;
+  top: 646px;
+}
+#app {
+  margin: 0 auto;
+}
+.carre{
+  position: absolute;
+  width: 1512px;
+  height: 369px;
+  right: 0px;
+  top: 786px;
+  z-index: 1;
+  background: #C1DFEF;
+}
+.container{
+  margin: auto;
+  padding: 0;
+  max-width: 1400px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
